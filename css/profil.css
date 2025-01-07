@@ -1,0 +1,17 @@
+.collapse-item.text-white:hover {
+    background-color: #17a2b8 !important;
+}
+#photo-preview {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.btn-full-width {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .sidebar-divider + .sidebar-heading {
+        display: none;
+    }
+}

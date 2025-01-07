@@ -1,0 +1,7 @@
+Admin
+Username: adminayu
+Password: adminayu
+
+Owner
+Username: pemilikayu
+password: pemilikayu

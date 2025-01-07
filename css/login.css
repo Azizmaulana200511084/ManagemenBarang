@@ -1,0 +1,49 @@
+body {
+    position: relative;
+    background: url('../aset/logo/tokomainan3.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+.body-overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+}
+.login-card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    padding: 1.5rem;
+    z-index: 2;
+}
+.login-card h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.btn-primary {
+    background: #0056b3;
+    border: none;
+}
+.btn-primary:hover {
+    background: #004494;
+}
+.alert {
+    margin-top: 1rem;
+}
+.footer-text {
+    margin-top: 1.5rem;
+}
+.icon-large {
+    font-size: 100px; 
+}
+.color-primary {
+    color: #224abe; 
+}

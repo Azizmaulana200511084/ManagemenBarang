@@ -1,0 +1,27 @@
+.nav-link1 {
+    color: #555 !important;
+    font-weight: 500;
+        padding: 10px 15px;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+.nav-link1:hover {
+    color: #007bff !important;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+.nav-item1 {
+    margin: 0 1px;
+    margin-bottom: 20px;
+}
+.nav-link1.active {
+    color: #007bff !important;
+    border-bottom: 2px solid #007bff;
+}
+.collapse-item.text-white:hover {
+    background-color: #17a2b8 !important;
+}
+@media (max-width: 768px) {
+    .sidebar-divider + .sidebar-heading {
+        display: none;
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "robertz.code-snapshot",
+        "huibizhang.codesnap-plus",
+        "adammomen.screenify"
+    ]
+}
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  }

@@ -1,0 +1,12 @@
+.table-responsive {
+    max-height: 300px;
+    overflow-y: auto;
+}
+.collapse-item.text-white:hover {
+    background-color: #17a2b8 !important;
+}
+@media (max-width: 768px) {
+    .sidebar-divider + .sidebar-heading {
+        display: none;
+    }
+}
